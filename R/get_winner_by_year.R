@@ -9,6 +9,8 @@
 #' get_winner_by_year(1960:1969)
 get_winner_by_year <- function(years) {
 
+  NULL -> Year
+
   assertthat::assert_that(is.numeric(years))
 
   assertthat::assert_that(
