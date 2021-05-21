@@ -13,6 +13,9 @@ get_winner_by_year <- function(years) {
 
   assertthat::assert_that(is.numeric(years))
 
+  # Check that it's integers
+  assertthat::assert_that(all(as.integer(years)==years))
+
   assertthat::assert_that(
     min(years) >= min(laureates$Year),
     msg="One of your years was earlier than the data we have"
