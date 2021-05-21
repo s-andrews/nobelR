@@ -1,6 +1,6 @@
 Package: nobelR
 Title: Query Nobel Prize Winners
-Version: 0.0.1
+Version: 1.0.0
 Authors@R: 
     person(given = "Simon",
            family = "Andrews",
