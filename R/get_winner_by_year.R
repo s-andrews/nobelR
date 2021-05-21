@@ -1,3 +1,12 @@
+#' Find people by the year they won
+#'
+#' @param years Vector of years between 1901 and present
+#'
+#' @return A tibble of winner details
+#' @export
+#'
+#' @examples
+#' get_winner_by_year(1960:1969)
 get_winner_by_year <- function(years) {
 
   assertthat::assert_that(is.numeric(years))
